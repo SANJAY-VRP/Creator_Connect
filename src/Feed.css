@@ -1,0 +1,44 @@
+.feeduploads-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.fupload-item{
+  width: 600px;
+  height: 500px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+.fupload-item img{
+width: 100%;
+height: 300px;
+}
+.likebutton{
+  background-color: purple;
+  padding: 6px 20px;
+  font-size: 20px;
+}
+.liketext p{
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 50px;
+}
+.likecontainer{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: #c6b6b663;
+}
+.centerimage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

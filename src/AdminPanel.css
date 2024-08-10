@@ -1,0 +1,160 @@
+/* AdminPanel.css */
+
+/* Container styles */
+.border {
+  border: 2px solid rgb(216, 205, 205);
+  padding: 10px;
+}
+
+.containerad {
+  display: flex;
+}
+
+/* Left panel styles */
+.left-panel {
+  width: 100%; /* Adjust width to take full horizontal space */
+  padding: 10px;
+  margin-top: -577px;
+  background-color: #f0f0f0; /* Change background color */
+  border-radius: 10px;
+  position: relative;
+    bottom: 192px;
+}
+
+.left-panel h2 {
+  color: #ffffff; /* Change text color */
+  text-align: center;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.statistics-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.countbox {
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  background-color: #007bff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.countbox p {
+  margin: 5px 0;
+}
+
+.icon1234 {
+  font-size: 24px; /* Adjust icon size */
+}
+
+/* Right panel styles */
+.right-panel {
+  width: 100%; /* Adjust width to take full horizontal space */
+  padding: 10px;
+  background-color: #f0f0f0; /* Change background color */
+  border-radius: 10px;
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.right-panel h2 {
+  color: #007bff; /* Change text color */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.t-container {
+  margin-top: 20px;
+}
+
+.t-container h3 {
+  color: #007bff; /* Change text color */
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f0f0f0; /* Change background color */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+.lightblue th {
+  background-color: #007bff;
+  color: white;
+}
+
+.remove button {
+  background-color: transparent;
+}
+
+.red {
+  color: red;
+}
+
+/* Profile picture styles */
+.pimg img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Admin panel title styles */
+.adminpanel {
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* Statistics title styles */
+.satistics {
+  color: #fff;
+  text-align: center;
+  background-color: #007bff;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* Canvas styles */
+#chart {
+  display: block;
+  width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left-panel,
+  .right-panel {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

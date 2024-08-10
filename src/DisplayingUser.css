@@ -1,0 +1,75 @@
+/* DisplayingUser.css */
+
+.users-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.users-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.user-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+
+}
+
+.user-card img {
+  width: 200px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.user-info {
+  text-align: center;
+ 
+
+}
+
+.pimagebg{
+  
+  background-color: #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.pimagebg img{
+   border: 5px solid white;
+}
+.namee {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nameee {
+  margin-bottom: 5px;
+}
+
+.nameeee {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.buttonblue{
+  background-color: #007bff;
+}

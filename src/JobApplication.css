@@ -1,0 +1,56 @@
+.job-application-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  .job-application-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .job-application-container form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .job-application-container label {
+    font-weight: bold;
+  }
+  
+  .job-application-container input[type="text"],
+  .job-application-container input[type="email"],
+  .job-application-container textarea,
+  .job-application-container input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a39d9d;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .job-application-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .job-application-container button:hover {
+    background-color: #0056b3;
+  }
+  .whichjob{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(3, 10, 252);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+
+  }

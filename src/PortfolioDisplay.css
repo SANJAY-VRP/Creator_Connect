@@ -1,0 +1,48 @@
+/* ProfileDisplay.css */
+
+/* Container */
+.profile-display {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f2f5; /* Facebook background color */
+    border-radius: 10px;
+  }
+  
+  /* Heading */
+  .profile-heading {
+    color: #1877f2; /* Facebook blue color */
+    margin-bottom: 20px;
+  }
+  
+  /* Profile detail */
+  .profile-detail {
+    margin-bottom: 10px;
+  }
+  
+  /* Image */
+  .profile-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Edit button */
+  .edit-button {
+    background-color: #1877f2; /* Facebook blue color */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover {
+    background-color: #0e5a8a; /* Darker shade of blue on hover */
+  }
+  .profile-images{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+  }
+  

@@ -1,0 +1,41 @@
+/* DisplayingRating.css */
+
+/* Styles for the rating container */
+.rating {
+    margin-bottom: 20px;
+ 
+    display: inline-block;
+    padding: 10px 61px;
+    box-shadow: 3px 4px 10px black;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: #e9dddd47;
+}
+
+  
+  /* Styles for the star icons */
+  .stars {
+    margin-bottom: 10px;
+  }
+  
+  .star {
+    color: gold; /* Color of the star */
+    margin-right: 5px; /* Spacing between stars */
+  }
+  
+  /* Styles for other elements */
+  .message {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .reviewer-email {
+    font-size: 14px;
+    color: #666;
+  }
+  .ratingflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }

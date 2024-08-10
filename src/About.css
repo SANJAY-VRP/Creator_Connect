@@ -1,0 +1,110 @@
+.btext{
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.stext{
+    color: rgb(45, 39, 39);
+}
+.litext{
+    color: rgb(255, 255, 255);
+  
+    padding: 30px;
+    margin: 10px;
+    
+}
+.stext{
+    color: rgb(0, 0, 0);
+}
+.btext2{
+    color: black;
+}
+.aboutbox-1 img{
+   border: none;
+}
+.aboutbox-1{
+  text-align: center;
+  border-radius:20px;
+  max-width: 1000px;
+  background: linear-gradient(69.5deg, rgb(251, 0, 0) -0.5%, rgb(3, 10, 252) 97.4%); 
+}
+.Aboutflex{
+    display: flex;
+    justify-content: center;
+ 
+}
+.Aboutflex img{
+    max-width: 100%;
+    min-width: 200px;
+}
+.aboutbox-1 h2{
+    color: white;
+    font-weight: 700;
+}
+.m{
+    margin: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    width: 400px;
+    max-width :400px; 
+}
+.ultext{
+    display: flex;
+    justify-content: center;
+   
+    flex-wrap: wrap;
+
+}
+.litext{
+    max-width: 200px;
+
+    border-radius:20px 0px 20px 0px;
+    background: linear-gradient(69.5deg, rgb(251, 0, 0) -0.5%, rgb(3, 10, 252) 97.4%); 
+}
+.gif img{
+    width: 400px;
+    height: 500;
+    margin: 20px;
+    border: none;
+    padding: 30px;
+    border-left: 2px dotted black;
+}
+.dummy{
+   max-width: 400px;
+   margin: 20px;
+
+}
+.gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.holy{
+    border: 2px solid blue;
+    border-radius:20px 0px 20px 0px;
+}
+.n{
+  
+    color: blue;
+}
+.mission-box{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bosspic{
+    width: 100%;
+    height: 100%;
+    min-width: 280px;
+    min-height: 450px;
+    max-height: 450px;
+    border: none;
+    filter: saturate(1) drop-shadow(2px 2px 10px   rgb(0, 0, 0) );
+  
+}
+
+

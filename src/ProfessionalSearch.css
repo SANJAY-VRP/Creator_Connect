@@ -1,0 +1,21 @@
+.container123{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box123{
+    width: 200px;
+    height: 220px;
+    border: 2px solid purple;
+    margin: 10px;
+    padding: 30px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 20px 0px 20px 0px;
+}
+.icon123{
+    font-size: 100px;
+    color: purple;
+    margin: 10px;
+}

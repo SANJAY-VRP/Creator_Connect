@@ -1,0 +1,74 @@
+/* DisplayWorks.css */
+
+/* Styles for the container holding all uploads */
+.uploads-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Styles for each individual upload item */
+.upload-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.upload-item:hover {
+    transform: translateY(-5px); /* Move item up slightly on hover */
+}
+
+/* Styles for the image within the upload item */
+.upload-item img {
+
+
+   width: 300px;
+   height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Styles for the description text */
+.upload-item p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style for the upload item heading */
+.upload-item h3 {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styles for the like button */
+.likebutton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    
+    transition: background-color 0.3s ease;
+}
+
+.likebutton:hover {
+    background-color: #0056b3;
+}
+
+/* Styles for the like text */
+.liketext {
+    font-size: 14px;
+}
+
+/* Styles for the like button when already liked (disabled) */
+.likebutton[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
